@@ -1,0 +1,57 @@
+/* Estilos para los enlaces */
+a {
+    color: #007bff; /* Azul brillante */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+    color: #0056b3; /* Azul oscuro al pasar el ratón */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+/* Estilos para los botones de inicio de sesión */
+.boton-logueo, .boton-registro {
+    background-color: #28a745; /* Verde */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton-logueo a, .boton-registro a {
+    color: white; /* Texto blanco */
+    text-decoration: none;
+}
+
+.boton-logueo:hover, .boton-registro:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+}
+
+/* Espaciado */
+.spacer {
+    padding: 15px 0px 15px 0px;
+}
+
+/* Estilos para el ícono de ver */
+.ver-icon {
+    color: #17a2b8; /* Azul claro */
+}
+
+/* Estilos para el ícono de editar */
+.editar-icon {
+    color: #dc3545; /* Rojo */
+}
+
+/* Estilos para el ícono de eliminar */
+.eliminar-icon {
+    color: #e83e8c; /* Rosa */
+}
